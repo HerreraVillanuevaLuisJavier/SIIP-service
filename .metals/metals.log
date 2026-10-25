@@ -7910,3 +7910,95 @@ java.nio.file.FileSystemNotFoundException: Provider "git" not installed
 2026.10.25 09:59:33 INFO  shutting down Metals
 2026.10.25 09:59:33 INFO  Shut down connection with build server.
 2026.10.25 09:59:33 INFO  Exiting server
+2026.10.25 10:07:37 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\Danie\Documents\UTP2026\SIIP\SIIP-service' for client Visual Studio Code 1.143.1.
+2026.10.25 10:07:37 INFO  Memory monitor started
+2026.10.25 10:07:38 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.10.25 10:07:38 INFO  no build target found for C:\Users\Danie\Documents\UTP2026\SIIP\SIIP-service\service-inventario\src\main\java\com\siip\service_inventario\jar\service\InventarioService.java. Using fallback presentation compiler.
+oct 25, 2026 10:07:39 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.10.25 10:07:39 INFO  no build target found for C:\Users\Danie\Documents\UTP2026\SIIP\SIIP-service\service-inventario\src\main\java\com\siip\service_inventario\jar\service\InventarioService.java. Using fallback presentation compiler.
+2026.10.25 10:07:39 INFO  Attempting to connect to the build server...
+2026.10.25 10:07:39 INFO  Found a Bloop server running
+2026.10.25 10:07:39 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\Danie\Documents\UTP2026\SIIP\SIIP-service\.metals\bsp.trace.json or C:\Users\Danie\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.10.25 10:07:39 INFO  time: Connected to build server in 0.27s
+2026.10.25 10:07:39 INFO  Connected to Build server: Bloop v2.1.2
+2026.10.25 10:07:39 INFO  time: Imported build in 0.13s
+oct 25, 2026 10:07:43 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+2026.10.25 10:07:46 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.10.25 10:07:47 INFO  compiling service-inventario (1 java source)
+2026.10.25 10:07:49 WARN  javac exited with exit code 1
+2026.10.25 10:07:49 INFO  time: compiled service-inventario in 2.15s
+2026.10.25 10:07:50 INFO  time: indexed workspace in 10s
+2026.10.25 10:07:49 INFO  compiling service-inventario (1 java source)
+2026.10.25 10:07:52 WARN  javac exited with exit code 1
+2026.10.25 10:07:52 INFO  time: compiled service-inventario in 1.4s
+oct 25, 2026 10:08:04 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+2026.10.25 10:08:18 INFO  compiling service-inventario (2 java sources)
+2026.10.25 10:08:20 WARN  javac exited with exit code 1
+2026.10.25 10:08:20 INFO  time: compiled service-inventario in 1.96s
+2026.10.25 10:08:20 INFO  compiling service-inventario (2 java sources)
+2026.10.25 10:08:22 WARN  javac exited with exit code 1
+2026.10.25 10:08:22 INFO  time: compiled service-inventario in 1.27s
+2026.10.25 10:08:28 INFO  compiling service-inventario (2 java sources)
+2026.10.25 10:08:30 WARN  javac exited with exit code 1
+2026.10.25 10:08:30 INFO  time: compiled service-inventario in 1.57s
+oct 25, 2026 10:11:45 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 74
+oct 25, 2026 10:16:45 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 133
+oct 25, 2026 10:16:46 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 136
+2026.10.25 10:17:41 INFO  compiling service-inventario (11 java sources)
+2026.10.25 10:17:42 WARN  javac exited with exit code 1
+2026.10.25 10:17:42 INFO  time: compiled service-inventario in 1.64s
+2026.10.25 10:18:12 INFO  file:///C:/Users/Danie/Documents/UTP2026/SIIP/SIIP-service/service-inventario/src/main/java/com/siip/service_inventario/jar/service/InventarioService.java:3:30: stale bloop error:  error: package com.google.common.base does not exist
+import com.google.common.base.Preconditions;
+                             ^
+2026.10.25 10:18:12 INFO  file:///C:/Users/Danie/Documents/UTP2026/SIIP/SIIP-service/service-inventario/src/main/java/com/siip/service_inventario/jar/service/InventarioService.java:4:30: stale bloop error:  error: package com.google.common.base does not exist
+import com.google.common.base.Strings;
+                             ^
+2026.10.25 10:18:12 INFO  file:///C:/Users/Danie/Documents/UTP2026/SIIP/SIIP-service/service-inventario/src/main/java/com/siip/service_inventario/jar/service/InventarioService.java:43:38: stale bloop error:  error: cannot find symbol
+        Preconditions.checkArgument(!Strings.isNullOrEmpty(nombreMedicamento) && !nombreMedicamento.isBlank(),
+                                     ^
+2026.10.25 10:18:12 INFO  file:///C:/Users/Danie/Documents/UTP2026/SIIP/SIIP-service/service-inventario/src/main/java/com/siip/service_inventario/jar/service/InventarioService.java:43:9: stale bloop error:  error: cannot find symbol
+        Preconditions.checkArgument(!Strings.isNullOrEmpty(nombreMedicamento) && !nombreMedicamento.isBlank(),
+        ^
+oct 25, 2026 10:18:16 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 182
+oct 25, 2026 10:18:16 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 183
+2026.10.25 10:22:46 INFO  Shutting down server
+2026.10.25 10:22:46 INFO  Memory monitor stopped
+2026.10.25 10:22:46 INFO  shutting down Metals
+2026.10.25 10:22:46 INFO  Shut down connection with build server.
+2026.10.25 10:22:46 INFO  Exiting server
+2026.10.25 10:22:57 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\Danie\Documents\UTP2026\SIIP\SIIP-service' for client Visual Studio Code 1.143.1.
+2026.10.25 10:22:57 INFO  Memory monitor started
+2026.10.25 10:22:58 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.10.25 10:22:58 INFO  no build target found for C:\Users\Danie\Documents\UTP2026\SIIP\SIIP-service\service-inventario\src\main\java\com\siip\service_inventario\jar\service\InventarioService.java. Using fallback presentation compiler.
+2026.10.25 10:22:59 INFO  no build target found for C:\Users\Danie\Documents\UTP2026\SIIP\SIIP-service\service-inventario\src\main\java\com\siip\service_inventario\jar\service\InventarioService.java. Using fallback presentation compiler.
+2026.10.25 10:23:00 INFO  Attempting to connect to the build server...
+2026.10.25 10:23:00 INFO  Found a Bloop server running
+2026.10.25 10:23:00 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\Danie\Documents\UTP2026\SIIP\SIIP-service\.metals\bsp.trace.json or C:\Users\Danie\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.10.25 10:22:59 INFO  time: Connected to build server in 0.39s
+2026.10.25 10:23:00 INFO  Connected to Build server: Bloop v2.1.2
+2026.10.25 10:23:00 INFO  no build target found for C:\Users\Danie\Documents\UTP2026\SIIP\SIIP-service\service-inventario\src\main\java\com\siip\service_inventario\jar\service\InventarioService.java. Using fallback presentation compiler.
+2026.10.25 10:23:01 INFO  time: Imported build in 0.67s
+2026.10.25 10:23:08 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.10.25 10:23:12 INFO  time: indexed workspace in 11s
+2026.10.25 10:23:12 INFO  compiling service-inventario (11 java sources)
+2026.10.25 10:23:15 WARN  javac exited with exit code 1
+2026.10.25 10:23:15 INFO  time: compiled service-inventario in 2.17s
+oct 25, 2026 10:42:36 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 66
+2026.10.25 10:49:58 INFO  compiling service-inventario (11 java sources)
+2026.10.25 10:50:02 WARN  javac exited with exit code 1
+2026.10.25 10:50:02 INFO  time: compiled service-inventario in 3.83s
+oct 25, 2026 10:55:52 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 113
+oct 25, 2026 10:55:52 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 119
+oct 25, 2026 11:00:17 A.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
