@@ -8002,3 +8002,89 @@ oct 25, 2026 10:55:52 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancel
 WARNING: Unmatched cancel notification for request id 119
 oct 25, 2026 11:00:17 A.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2026.10.25 11:36:36 INFO  Shutting down server
+2026.10.25 11:36:36 INFO  Memory monitor stopped
+2026.10.25 11:36:36 INFO  shutting down Metals
+2026.10.25 11:36:37 INFO  Shut down connection with build server.
+2026.10.25 11:36:36 INFO  Exiting server
+2026.10.25 19:51:07 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\Danie\Documents\UTP2026\SIIP\SIIP-service' for client Visual Studio Code 1.143.1.
+2026.10.25 19:51:07 INFO  Memory monitor started
+2026.10.25 19:51:08 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.10.25 19:51:08 INFO  no build target found for C:\Users\Danie\Documents\UTP2026\SIIP\SIIP-service\service-inventario\src\main\java\com\siip\service_inventario\jar\service\InventarioService.java. Using fallback presentation compiler.
+2026.10.25 19:51:09 INFO  no build target found for C:\Users\Danie\Documents\UTP2026\SIIP\SIIP-service\service-inventario\src\main\java\com\siip\service_inventario\jar\service\InventarioService.java. Using fallback presentation compiler.
+2026.10.25 19:51:09 INFO  Attempting to connect to the build server...
+2026.10.25 19:51:09 INFO  No running Bloop server found, starting one.
+2026.10.25 19:51:12 INFO  Starting compilation server
+2026.10.25 19:51:14 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\Danie\Documents\UTP2026\SIIP\SIIP-service\.metals\bsp.trace.json or C:\Users\Danie\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.10.25 19:51:21 INFO  time: Connected to build server in 11s
+2026.10.25 19:51:21 INFO  Connected to Build server: Bloop v2.1.2
+2026.10.25 19:51:22 INFO  time: Imported build in 0.33s
+2026.10.25 19:51:25 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.10.25 19:51:29 INFO  time: indexed workspace in 7.05s
+2026.10.25 19:51:29 INFO  compiling service-inventario (11 java sources)
+2026.10.25 19:51:32 WARN  javac exited with exit code 1
+2026.10.25 19:51:32 INFO  time: compiled service-inventario in 2.31s
+2026.10.25 20:32:48 INFO  compiling service-inventario (12 java sources)
+oct 25, 2026 8:32:49 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+2026.10.25 20:32:50 WARN  javac exited with exit code 1
+2026.10.25 20:32:50 INFO  time: compiled service-inventario in 2.07s
+2026.10.25 20:32:50 INFO  compiling service-inventario (12 java sources)
+2026.10.25 20:32:52 WARN  javac exited with exit code 1
+2026.10.25 20:32:52 INFO  time: compiled service-inventario in 1.5s
+2026.10.25 20:33:06 INFO  compiling service-inventario (12 java sources)
+2026.10.25 20:33:08 WARN  javac exited with exit code 1
+2026.10.25 20:33:08 INFO  time: compiled service-inventario in 1.59s
+2026.10.25 20:33:58 INFO  compiling service-inventario (13 java sources)
+2026.10.25 20:33:59 WARN  javac exited with exit code 1
+2026.10.25 20:33:59 INFO  time: compiled service-inventario in 1.92s
+2026.10.25 20:33:59 INFO  compiling service-inventario (13 java sources)
+2026.10.25 20:34:01 WARN  javac exited with exit code 1
+2026.10.25 20:34:01 INFO  time: compiled service-inventario in 1.64s
+2026.10.25 20:36:24 INFO  compiling service-inventario (14 java sources)
+2026.10.25 20:36:26 WARN  javac exited with exit code 1
+2026.10.25 20:36:26 INFO  time: compiled service-inventario in 1.95s
+2026.10.25 20:36:26 INFO  compiling service-inventario (14 java sources)
+2026.10.25 20:36:27 WARN  javac exited with exit code 1
+2026.10.25 20:36:27 INFO  time: compiled service-inventario in 1.52s
+2026.10.25 20:36:35 INFO  compiling service-inventario (14 java sources)
+2026.10.25 20:36:37 WARN  javac exited with exit code 1
+2026.10.25 20:36:37 INFO  time: compiled service-inventario in 1.87s
+2026.10.25 20:37:33 INFO  compiling service-inventario (15 java sources)
+2026.10.25 20:37:35 WARN  javac exited with exit code 1
+2026.10.25 20:37:35 INFO  time: compiled service-inventario in 2.18s
+2026.10.25 20:37:35 INFO  compiling service-inventario (15 java sources)
+2026.10.25 20:37:37 WARN  javac exited with exit code 1
+2026.10.25 20:37:37 INFO  time: compiled service-inventario in 1.78s
+2026.10.25 20:37:45 INFO  compiling service-inventario (15 java sources)
+2026.10.25 20:37:47 WARN  javac exited with exit code 1
+2026.10.25 20:37:47 INFO  time: compiled service-inventario in 1.77s
+2026.10.25 20:38:09 INFO  compiling service-inventario (15 java sources)
+2026.10.25 20:38:10 WARN  javac exited with exit code 1
+2026.10.25 20:38:10 INFO  time: compiled service-inventario in 1.68s
+2026.10.25 20:38:24 INFO  compiling service-inventario (16 java sources)
+2026.10.25 20:38:26 WARN  javac exited with exit code 1
+2026.10.25 20:38:26 INFO  time: compiled service-inventario in 1.94s
+2026.10.25 20:38:26 INFO  compiling service-inventario (16 java sources)
+2026.10.25 20:38:28 WARN  javac exited with exit code 1
+2026.10.25 20:38:28 INFO  time: compiled service-inventario in 1.8s
+2026.10.25 20:38:36 INFO  compiling service-inventario (16 java sources)
+2026.10.25 20:38:37 WARN  javac exited with exit code 1
+2026.10.25 20:38:37 INFO  time: compiled service-inventario in 1.81s
+2026.10.25 20:40:44 INFO  compiling service-inventario (17 java sources)
+2026.10.25 20:40:46 WARN  javac exited with exit code 1
+2026.10.25 20:40:46 INFO  time: compiled service-inventario in 1.99s
+2026.10.25 20:40:46 INFO  compiling service-inventario (17 java sources)
+2026.10.25 20:40:47 WARN  javac exited with exit code 1
+2026.10.25 20:40:47 INFO  time: compiled service-inventario in 1.72s
+2026.10.25 20:40:52 INFO  compiling service-inventario (17 java sources)
+2026.10.25 20:40:54 WARN  javac exited with exit code 1
+2026.10.25 20:40:54 INFO  time: compiled service-inventario in 1.69s
+oct 25, 2026 8:41:33 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 417
+2026.10.25 20:41:44 INFO  compiling service-inventario (17 java sources)
+2026.10.25 20:41:46 WARN  javac exited with exit code 1
+2026.10.25 20:41:46 INFO  time: compiled service-inventario in 1.85s
+2026.10.25 20:42:44 INFO  compiling service-inventario (18 java sources)
+2026.10.25 20:42:46 WARN  javac exited with exit code 1
+2026.10.25 20:42:46 INFO  time: compiled service-inventario in 1.96s
